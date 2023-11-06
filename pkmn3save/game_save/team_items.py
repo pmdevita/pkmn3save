@@ -1,8 +1,8 @@
 import struct
 from functools import cached_property
 
-from gen3editor.mapping import BinaryChunk, DataMapping
-from gen3editor.data_types.pokemon import Pokemon
+from pkmn3save.mapping import BinaryChunk, DataMapping
+from pkmn3save.data_types.pokemon import Pokemon
 
 import typing
 if typing.TYPE_CHECKING:

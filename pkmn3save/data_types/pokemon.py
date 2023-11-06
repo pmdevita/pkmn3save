@@ -2,8 +2,8 @@ import enum
 import struct
 from functools import cached_property
 
-from gen3editor.mapping import BinaryChunk, StructChunk, DataMapping
-from gen3editor.data.pokemon import PokemonSpecies
+from pkmn3save.mapping import BinaryChunk, StructChunk, DataMapping
+from pkmn3save.data.pokemon import PokemonSpecies
 
 PERSONALITY = BinaryChunk(0, 4)
 OT_ID = BinaryChunk(4, 4)
@@ -115,3 +115,11 @@ class PokemonData(DataMapping):
 
     def __getitem__(self, item: PokemonDataSubsection) -> bytes:
         return self.get_section(item)
+
+
+
+a = PokemonData()
+
+
+
+

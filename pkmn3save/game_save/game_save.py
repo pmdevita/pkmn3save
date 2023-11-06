@@ -1,4 +1,4 @@
-from gen3editor.mapping import GAME_SAVE_A, GAME_SAVE_B, BinaryChunk
+from pkmn3save.mapping import GAME_SAVE_A, GAME_SAVE_B, BinaryChunk
 from .trainer_info import TrainerInfo, GameCode
 from .team_items import TeamItems, TeamItemsLGFR
 

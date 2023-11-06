@@ -1,7 +1,7 @@
 import enum
 import struct
-from gen3editor.mapping import BinaryChunk
-from gen3editor.data_types.strings import to_ascii
+from pkmn3save.mapping import BinaryChunk
+from pkmn3save.data_types.strings import to_ascii
 
 import typing
 if typing.TYPE_CHECKING:
