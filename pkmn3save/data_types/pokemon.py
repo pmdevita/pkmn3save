@@ -115,11 +115,3 @@ class PokemonData(DataMapping):
 
     def __getitem__(self, item: PokemonDataSubsection) -> bytes:
         return self.get_section(item)
-
-
-
-a = PokemonData()
-
-
-
-
